@@ -2,6 +2,9 @@
 import React from 'react'
 import {motion} from "framer-motion"
 import { FaArrowUpLong } from "react-icons/fa6";
+import '../components/fonts.css';
+
+
 
 function LandingPage() {
    
