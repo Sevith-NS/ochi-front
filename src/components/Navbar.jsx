@@ -1,11 +1,12 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react'
 
 function Navbar() {
   return ( 
     <div className="fixed z-[999] w-full px-20 py-8 font-['Neue_Montreal'] flex justify-between items-center" >
       <div className='logosvg'> 
-        Logo
-        </div>
+        Ochi
+      </div>
 
         <div className='links flex gap-10 '>
             {["Services", "Our Work", "About", "Insight", "Contact"].map((item, index) =>(

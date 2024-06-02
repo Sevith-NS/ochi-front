@@ -18,7 +18,7 @@ function LandingPage() {
                                             initial={{width: 0}} 
                                             animate={{width: "8vw"}} 
                                             transition={{ease: [0.76, 0, 0.24, 1], duration: 1 }} 
-                                            className='w-[8vw] rounded-md mr-[0.5vw] relative h-[4.3vw] bg-green-500'></motion.div>)} 
+                                            className='w-[8vw] rounded-md mr-[0.5vw] relative h-[4.3vw] bg-[url("/img.jpg")] bg-cover'></motion.div>)} 
                                     <h1 className='flex items-center uppercase text-[7vw] leading-[7vw]  font-["Founders_Grotesk"] font-bold'>
                                         {item}
                                     </h1>
