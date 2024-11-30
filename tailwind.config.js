@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        neue: ['Neue_Montreal', 'sans-serif'], 
+        grotesk: ['Founders_Grotesk', 'sans-serif'], 
+        groteskCond: ['Founders_Grotesk_Condensed', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }

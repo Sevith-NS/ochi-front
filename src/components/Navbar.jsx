@@ -3,7 +3,7 @@ import React from 'react'
 
 function Navbar() {
   return ( 
-    <div className="fixed z-[999] w-full px-20 py-8 font-['Neue_Montreal'] flex justify-between items-center" >
+    <div className="fixed z-[999] w-full px-20 py-8 font-neue flex justify-between items-center" >
       <div className='logosvg'> 
         Ochi
       </div>

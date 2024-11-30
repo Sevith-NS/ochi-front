@@ -10,14 +10,14 @@ function Marquee() {
               initial={{x: "0"}} 
               animate={{x: "-100%"}}  
               transition={{repeat: Infinity, ease: "linear", duration: 10}}
-              className='text-[17vw] leading-none font-["Founders_Grotesk"] uppercase -mb-[3.5vw] pt-[3vw] font-semibold pr-20'>We are Ochi
+              className='text-[17vw] leading-none font-groteskCond uppercase -mb-[3.5vw] pt-[3vw] font-semibold pr-20'>We are Ochi
             </motion.h1>
 
             <motion.h1
               initial={{x: "0"}} 
               animate={{x: "-100%"}}  
               transition={{repeat: Infinity, ease: "linear", duration: 10}}
-              className='text-[17vw] leading-none font-["Founders_Grotesk"] uppercase -mb-[3.5vw] pt-[3vw] font-semibold pr-20'>We are Ochi
+              className='text-[17vw] leading-none font-groteskCond uppercase -mb-[3.5vw] pt-[3vw] font-semibold pr-20'>We are Ochi
               </motion.h1>      
         </div>
     </div>

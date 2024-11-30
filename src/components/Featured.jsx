@@ -16,7 +16,7 @@ function Featured() {
         return (
             <div className='w-full py-10 bg-zinc-800'>
                 <div className='w-full px-10 border-b-[1px] border-zinc-700'>
-                    <h1 className='text-7xl font-["Neue_Montreal"] tracking-tight px-5 py-10'>Featured Projects</h1>
+                    <h1 className='text-7xl font-neue tracking-tight px-5 py-10'>Featured Projects</h1>
                 </div>
                 <div className='px-20'>
                     <div className='cards w-full flex gap-10 mt-20'>
@@ -26,7 +26,7 @@ function Featured() {
                             onHoverEnd={() => handleHoverEnd(0)}
                             className='cardcontainer relative w-1/2 h-[75vh]'
                         >
-                            <h1 className='absolute overflow-hidden flex text-[#CDEA68] left-full -translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] text-8xl leading-none tracking-tighter font-["neue_Montreal"]'>
+                            <h1 className='absolute overflow-hidden flex text-[#CDEA68] left-full -translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] text-8xl leading-none tracking-tighter font-neue'>
                                 {"FYDE".split("").map((item, index) => (
                                     <motion.span
                                         initial={{ y: "100%" }}
@@ -49,7 +49,7 @@ function Featured() {
                             onHoverStart={() => handleHover(1)}
                             onHoverEnd={() => handleHoverEnd(1)}
                             className='cardcontainer relative w-1/2 h-[75vh]'>
-                            <h1 className='absolute flex overflow-hidden text-[#CDEA68] right-full translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] text-8xl leading-none tracking-tighter font-["neue_Montreal"]'>
+                            <h1 className='absolute flex overflow-hidden text-[#CDEA68] right-full translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] text-8xl leading-none tracking-tighter font-neue'>
                                 {"VISE".split('').map((item, index) => (
                                     <motion.span
                                         initial={{ y: "100%" }}

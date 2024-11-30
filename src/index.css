@@ -1,3 +1,111 @@
+@font-face {
+    font-family: 'Neue_Montreal';
+    src: url('../NeueMontreal-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Neue_Montreal';
+    src: url('../NeueMontreal-Regular.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Founders_Grotesk';
+    src: url('../FoundersGrotesk-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* Founders Grotesk Italic */
+  @font-face {
+    font-family: 'Founders_Grotesk';
+    src: url('../FoundersGrotesk-RegularItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  /* Founders Grotesk Bold */
+  @font-face {
+    font-family: 'Founders_Grotesk';
+    src: url('../FoundersGrotesk-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  /* Founders Grotesk Bold Italic */
+  @font-face {
+    font-family: 'Founders_Grotesk';
+    src: url('../FoundersGrotesk-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  /* Founders Grotesk Light */
+  @font-face {
+    font-family: 'Founders_Grotesk';
+    src: url('../FoundersGrotesk-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  /* Founders Grotesk Light Italic */
+  @font-face {
+    font-family: 'Founders_Grotesk';
+    src: url('../FoundersGrotesk-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  /* Founders Grotesk Medium */
+  @font-face {
+    font-family: 'Founders_Grotesk';
+    src: url('../FoundersGrotesk-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  /* Founders Grotesk Medium Italic */
+  @font-face {
+    font-family: 'Founders_Grotesk';
+    src: url('../FoundersGrotesk-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  /* Founders Grotesk Semibold */
+  @font-face {
+    font-family: 'Founders_Grotesk';
+    src: url('../FoundersGrotesk-Semibold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  /* Founders Grotesk Semibold Italic */
+  @font-face {
+    font-family: 'Founders_Grotesk';
+    src: url('../FoundersGroteskCond-Lt.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  /* Founders Grotesk Condensed Bold */
+  @font-face {
+    font-family: 'Founders_Grotesk_Condensed';
+    src: url('../FoundersGroteskXCond-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  /* Founders Grotesk Condensed Light */
+  @font-face {
+    font-family: 'Founders_Grotesk_Condensed';
+    src: url('../FoundersGroteskXCond-Lt.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+  }
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
